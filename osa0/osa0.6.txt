@@ -1,0 +1,2 @@
+Selain lähettää palvelimelle HTTP POST komennon status kodilla 201. Pyydetty url on: Request URL: https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Tämä on ainoa pyytö mikä tapahtuu eikä uudelleenohjauksia tule.

@@ -1,13 +1,10 @@
-Huom. vastauksessain en käy tämän sivun perus lataus toimintoja vaan toiminnot jotka tapahtuvat network välilehdessä kun new note luodaan.
-Selain lähettää palvelimelle HTTP POST komennon status kodilla 302. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/new_note
-
-Selain pyytää palvemlimelta notes listan HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/notes
-Listalle on päivittynyt uusi note.
+Selain pyytää palvemlimelta spa tiedostn HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/spa
+Tiedosto sisältää linkitykset ja pyynnöt apissa tarvittaviin osiim esim css tiedostoon html koodia yms.
 
 Selain pyytää palvemlimelta main css tiedoston HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/main.css
 Selain valmistelee tiedostossa olevia graaffisia pyyntojä miltä objektit näyttävät selaimessa.
 
-Selain pyytää palvemlimelta main js tiedoston HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/main.js
+Selain pyytää palvemlimelta spa js tiedoston HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/spa.js
 Tiedosto suorittaa siellä olevan koodin ja lopuksi pyytää viimeisen tiedoston.
 
 Selain pyytää palvemlimelta data json tiedoston HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/exampleapp/data.json
@@ -15,4 +12,3 @@ Tämä tiedosto sisältää notejen tekstit jotka tulostuvat selaimelle aikaisem
 
 Selain pyytää palvemlimelta favicon.icon tiedoston HTTP GET komennnolla status koodi 200. Pyydetty url on: https://studies.cs.helsinki.fi/favicon.ico
 Joka tulostuu käskyn mukaan sille varattuun paikkaan.
-
